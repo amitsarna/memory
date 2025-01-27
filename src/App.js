@@ -806,10 +806,10 @@ function getDefinitions(currentWordIndex)
     }
     else
     {
-      selectedDefinition = countryAndCapital[getRandomInt(0, countryAndCapital.length -1)].definition  
+      selectedDefinition = countryAndCapital[getRandomInt(0, countryAndCapital.length -1)].capital  
       while(usedDefinitions.includes(selectedDefinition))
       {
-        selectedDefinition = countryAndCapital[getRandomInt(0, countryAndCapital.length -1)].definition  
+        selectedDefinition = countryAndCapital[getRandomInt(0, countryAndCapital.length -1)].capital  
       }
       usedDefinitions.push(selectedDefinition)
     }
